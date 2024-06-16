@@ -14,12 +14,15 @@
       url = "github:cachix/pre-commit-hooks.nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    neorg-overlay.url = "github:nvim-neorg/nixpkgs-neorg-overlay";
   };
 
   outputs = {
     nixvim,
     flake-parts,
     pre-commit-hooks,
+    neorg-overlay,
     ...
   } @ inputs:
     flake-parts.lib.mkFlake {inherit inputs;} {
@@ -48,6 +51,17 @@
         };
         nvim = nixvim'.makeNixvimWithModule nixvimModule;
       in {
+        _module.args.pkgs = import inputs.nixpkgs {
+          inherit system;
+          overlays = [
+            neorg-overlay.overlays.default
+            (final: prev: {
+              # ... things you need to patch ...
+            })
+          ];
+          config = {};
+        };
+
         checks = {
           # Run `nix flake check .` to verify that your config is not broken
           default = nixvimLib.check.mkTestDerivationFromNixvimModule nixvimModule;

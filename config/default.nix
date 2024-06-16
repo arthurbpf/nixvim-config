@@ -17,13 +17,16 @@
     ./plugins/lsp/none-ls.nix
     ./plugins/lsp/trouble.nix
 
+    ./plugins/notes/neorg.nix
+
     ./plugins/ui/noice.nix
+    ./plugins/ui/notify.nix
     ./plugins/ui/telescope.nix
     ./plugins/ui/which-key.nix
-    ./plugins/ui/notify.nix
     ./plugins/ui/precognition.nix
 
     ./plugins/utils/comment.nix
+    ./plugins/utils/illuminate.nix
   ];
 
   config = {
