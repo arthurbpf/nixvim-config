@@ -23,31 +23,31 @@
       "<leader><space>" = {
         action = "find_files";
         options = {
-          desc = "[Space] Find Files";
+          desc = "Find files";
         };
       };
       "<leader>/" = {
         action = "live_grep";
         options = {
-          desc = "[/] Live Grep";
+          desc = "Live grep";
         };
       };
       "<leader>:" = {
         action = "command_history";
         options = {
-          desc = "[:] Command History";
+          desc = "Command history";
         };
       };
       "<leader>b" = {
         action = "buffers";
         options = {
-          desc = "[b] Buffers";
+          desc = "Buffers";
         };
       };
       "<leader>ff" = {
         action = "find_files";
         options = {
-          desc = "[F]ind [F]iles";
+          desc = "Find files";
         };
       };
       "<leader>fr" = {
@@ -95,7 +95,7 @@
       "<leader>sa" = {
         action = "autocommands, {}";
         options = {
-          desc = "Auto Commands";
+          desc = "Auto commands";
         };
       };
       "<leader>sb" = {

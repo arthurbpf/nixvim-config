@@ -19,6 +19,7 @@
       keymaps = {
         silent = true;
         lspBuf = {
+          /*
           gd = {
             action = "definition";
             desc = "Goto Definition";
@@ -51,8 +52,10 @@
             action = "rename";
             desc = "Rename";
           };
+          */
         };
         diagnostic = {
+          /*
           "<leader>cd" = {
             action = "open_float";
             desc = "Line Diagnostics";
@@ -65,6 +68,7 @@
             action = "goto_prev";
             desc = "Previous Diagnostic";
           };
+          */
         };
       };
     };
