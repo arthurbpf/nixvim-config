@@ -27,6 +27,7 @@
 
     ./plugins/utils/comment.nix
     ./plugins/utils/illuminate.nix
+    ./plugins/utils/sleuth.nix
   ];
 
   config = {
@@ -34,6 +35,11 @@
       number = true;
       relativenumber = true;
       timeoutlen = 200;
+
+      tabstop = 4;
+      scrolloff = 8;
+      hlsearch = false;
+      clipboard = "unnamedplus";
     };
   };
 }
