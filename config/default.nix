@@ -1,5 +1,7 @@
 {
   imports = [
+    ./colors/catppuccin.nix
+
     ./keys.nix
 
     ./plugins/snippets/luasnip.nix
