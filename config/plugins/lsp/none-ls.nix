@@ -25,11 +25,6 @@
         prettier = {
           enable = true;
           disableTsServerFormatter = true;
-          withArgs = ''
-            {
-              extra_args = { "--no-semi", "--single-quote" },
-            }
-          '';
         };
         stylua.enable = true;
         yamlfmt.enable = true;
