@@ -40,6 +40,7 @@
     };
     rename = {
       autoSave = false;
+      inSelect = false;
       keys = {
         exec = "<CR>";
         quit = ["<C-k>" "<Esc>"];
