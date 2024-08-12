@@ -1,12 +1,12 @@
 {
-		plugins.treesitter = {
-				enable = true;
-				indent = false;
+  plugins.treesitter = {
+    enable = true;
+    indent = false;
     folding = false;
     nixvimInjections = true;
-		};
+  };
 
-		  plugins.treesitter-context = {
+  plugins.treesitter-context = {
     enable = true;
   };
 
@@ -58,5 +58,4 @@
       };
     };
   };
-
 }
