@@ -10,7 +10,8 @@
     ./plugins/cmp/copilot.nix
     ./plugins/cmp/lspkind.nix
 
-    ./plugins/treesitter/treesitter.nix
+    ./plugins/git/gitblame.nix
+    ./plugins/git/fugitive.nix
 
     ./plugins/lsp/conform.nix
     ./plugins/lsp/fidget.nix
@@ -20,6 +21,8 @@
     ./plugins/lsp/trouble.nix
 
     ./plugins/notes/neorg.nix
+
+    ./plugins/treesitter/treesitter.nix
 
     ./plugins/ui/noice.nix
     ./plugins/ui/notify.nix
