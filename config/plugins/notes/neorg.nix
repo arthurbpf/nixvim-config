@@ -8,8 +8,8 @@
       "core.dirman" = {
         config = {
           workspaces = {
-            home = "~/notes/home";
-            work = "~/notes/work";
+            home = "~/Notes/home";
+            work = "~/Notes/work";
           };
         };
       };
