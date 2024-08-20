@@ -24,6 +24,7 @@
 
     ./plugins/treesitter/treesitter.nix
 
+    ./plugins/ui/img-clip.nix
     ./plugins/ui/noice.nix
     ./plugins/ui/notify.nix
     ./plugins/ui/oil.nix
