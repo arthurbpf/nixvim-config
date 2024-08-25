@@ -1,9 +1,11 @@
 {
   plugins.conform-nvim = {
     enable = true;
-    formatOnSave = {
-      lspFallback = true;
-      timeoutMs = 500;
+    settings = {
+      format_on_save = {
+        lsp_fallback = true;
+        timeout_ms = 500;
+      };
     };
     notifyOnError = true;
     formattersByFt = {

@@ -5,7 +5,6 @@
       enable = true;
       servers = {
         tsserver = {enable = true;};
-        /*
         eslint = {enable = true;};
         html = {enable = true;};
         yamlls = {enable = true;};
@@ -16,7 +15,6 @@
         pyright = {enable = true;};
         gopls = {enable = true;};
         terraformls = {enable = true;};
-        */
       };
       keymaps = {
         silent = true;

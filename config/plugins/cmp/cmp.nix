@@ -1,6 +1,6 @@
 {
   plugins = {
-    # schemastore = {enable = true;};
+    schemastore = {enable = true;};
     cmp-emoji = {
       enable = true;
     };
