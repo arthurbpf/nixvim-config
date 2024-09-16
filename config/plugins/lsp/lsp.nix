@@ -4,7 +4,7 @@
     lsp = {
       enable = true;
       servers = {
-        tsserver = {enable = true;};
+        ts-ls = {enable = true;};
         eslint = {enable = true;};
         html = {enable = true;};
         yamlls = {enable = true;};

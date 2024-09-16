@@ -20,8 +20,6 @@
     ./plugins/lsp/none-ls.nix
     ./plugins/lsp/trouble.nix
 
-    ./plugins/notes/neorg.nix
-
     ./plugins/treesitter/treesitter.nix
 
     ./plugins/ui/img-clip.nix

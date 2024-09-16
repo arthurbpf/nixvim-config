@@ -14,15 +14,12 @@
       url = "github:cachix/pre-commit-hooks.nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-
-    neorg-overlay.url = "github:nvim-neorg/nixpkgs-neorg-overlay";
   };
 
   outputs = {
     nixvim,
     flake-parts,
     pre-commit-hooks,
-    neorg-overlay,
     ...
   } @ inputs:
     flake-parts.lib.mkFlake {inherit inputs;} {
@@ -54,7 +51,6 @@
         _module.args.pkgs = import inputs.nixpkgs {
           inherit system;
           overlays = [
-            neorg-overlay.overlays.default
             (final: prev: {
               # ... things you need to patch ...
             })
