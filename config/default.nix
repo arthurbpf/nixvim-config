@@ -20,11 +20,13 @@
     ./plugins/lsp/none-ls.nix
     ./plugins/lsp/trouble.nix
 
+    ./plugins/notes/neorg.nix
+
     ./plugins/treesitter/treesitter.nix
 
     ./plugins/ui/img-clip.nix
-    ./plugins/ui/noice.nix
-    ./plugins/ui/notify.nix
+    # ./plugins/ui/noice.nix
+    # ./plugins/ui/notify.nix
     ./plugins/ui/oil.nix
     ./plugins/ui/precognition.nix
     ./plugins/ui/telescope.nix
