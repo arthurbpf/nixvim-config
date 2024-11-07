@@ -34,6 +34,7 @@
 
     ./plugins/utils/comment.nix
     ./plugins/utils/illuminate.nix
+    ./plugins/utils/neotest.nix
     ./plugins/utils/sleuth.nix
   ];
 
