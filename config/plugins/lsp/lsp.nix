@@ -4,14 +4,14 @@
     lsp = {
       enable = true;
       servers = {
-        ts-ls = {enable = true;};
+        ts_ls = {enable = true;};
         eslint = {enable = true;};
         html = {enable = true;};
         yamlls = {enable = true;};
         jsonls = {enable = true;};
         marksman = {enable = true;};
-        lua-ls = {enable = true;};
-        nil-ls = {enable = true;};
+        lua_ls = {enable = true;};
+        nil_ls = {enable = true;};
         pyright = {enable = true;};
         gopls = {enable = true;};
         terraformls = {enable = true;};

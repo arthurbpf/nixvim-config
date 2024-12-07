@@ -1,4 +1,8 @@
 {
+  imports = [
+    ../ui/web-devicons.nix
+  ];
+
   plugins.lspsaga = {
     enable = true;
     beacon = {

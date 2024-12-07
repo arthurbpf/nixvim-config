@@ -1,4 +1,8 @@
 {
+  imports = [
+    ./web-devicons.nix
+  ];
+
   plugins.telescope = {
     enable = true;
     extensions = {
