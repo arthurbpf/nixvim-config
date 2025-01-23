@@ -6,15 +6,17 @@
 
     ./plugins/snippets/luasnip.nix
 
+    ./plugins/ai/copilot.nix
+    ./plugins/ai/avante.nix
+
     ./plugins/cmp/cmp.nix
-    ./plugins/cmp/copilot.nix
     ./plugins/cmp/lspkind.nix
 
     ./plugins/git/gitblame.nix
     ./plugins/git/fugitive.nix
 
     ./plugins/lsp/conform.nix
-    ./plugins/lsp/fidget.nix
+    #./plugins/lsp/fidget.nix
     ./plugins/lsp/lsp.nix
     ./plugins/lsp/lspsaga.nix
     ./plugins/lsp/none-ls.nix
