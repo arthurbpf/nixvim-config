@@ -4,6 +4,7 @@
     lsp = {
       enable = true;
       servers = {
+        typos_lsp = {enable = true;};
         ts_ls = {enable = true;};
         eslint = {enable = true;};
         html = {enable = true;};
