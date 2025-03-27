@@ -1,6 +1,6 @@
 {
   plugins.none-ls = {
-    enable = true;
+    enable = false;
     enableLspFormat = true;
     settings = {
       update_in_insert = false;
