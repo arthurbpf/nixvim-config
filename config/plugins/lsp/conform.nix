@@ -6,8 +6,6 @@
         lsp_fallback = true;
         timeout_ms = 500;
       };
-    };
-    settings = {
       notify_on_error = true;
       formatters_by_ft = {
         html = [["prettierd" "prettier"]];
