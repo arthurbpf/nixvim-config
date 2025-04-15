@@ -1,15 +1,14 @@
 _: {
   plugins.avante = {
-    enable = true;
+    enable = false;
     settings = {
       provider = "ollama";
-      vendors = {
-        ollama = {
-          __inherited_from = "openai";
-          api_key_name = "";
-          endpoint = "http://192.168.196.100:11434/api";
-          model = "qwen2.5-coder:7b";
-        };
+      ollama = {
+        endpoint = "http://192.168.196.100:11434";
+        model = "qwen2.5-coder";
+      };
+      behaviour = {
+        enable_cursor_planning_mode = true;
       };
       diff = {
         autojump = true;
