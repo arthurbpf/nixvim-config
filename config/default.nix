@@ -25,7 +25,7 @@
 
     ./plugins/treesitter/treesitter.nix
 
-    ./plugins/notes/neorg.nix
+    #./plugins/notes/neorg.nix
     ./plugins/notes/zk.nix
 
     ./plugins/ui/img-clip.nix

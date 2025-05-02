@@ -13,7 +13,7 @@
       codeAction = "💡"; # Can be any symbol you want 💡
     };
     hover = {
-      openCmd = "!firefox"; # Choose your browser
+      openCmd = "!zen"; # Choose your browser
       openLink = "gx";
     };
     diagnostic = {

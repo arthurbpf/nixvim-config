@@ -13,7 +13,7 @@ _: {
                   },
                   schema = {
                       model = {
-                          default = 'qwen2.5-coder:latest',
+                          default = 'qwen3:latest',
                       },
                       num_ctx = {
                           default = 32768,
