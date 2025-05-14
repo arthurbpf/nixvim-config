@@ -6,7 +6,7 @@
       servers = {
         typos_lsp = {enable = true;};
         ts_ls = {enable = true;};
-        eslint = {enable = true;};
+        #eslint = {enable = true;};
         html = {enable = true;};
         yamlls = {enable = true;};
         jsonls = {enable = true;};
