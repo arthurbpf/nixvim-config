@@ -9,11 +9,11 @@ _: {
             function()
               return require('codecompanion.adapters').extend('ollama', {
                   env = {
-                      url = "http://192.168.196.100:11434",
+                      url = "http://127.0.0.1:11434",
                   },
                   schema = {
                       model = {
-                          default = 'qwen3:latest',
+                          default = 'qwen3:14b',
                       },
                       num_ctx = {
                           default = 32768,
