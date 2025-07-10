@@ -1,11 +1,13 @@
 _: {
   plugins.avante = {
-    enable = false;
+    enable = true;
     settings = {
       provider = "ollama";
-      ollama = {
-        endpoint = "http://127.0.0.1:11434";
-        model = "qwen3:14b";
+      providers = {
+        ollama = {
+          endpoint = "http://127.0.0.1:11434";
+          model = "deepseek-r1:14b";
+        };
       };
       behaviour = {
         enable_cursor_planning_mode = true;

@@ -13,10 +13,10 @@ _: {
                   },
                   schema = {
                       model = {
-                          default = 'qwen3:14b',
+                          default = 'deepseek-r1:14b',
                       },
                       num_ctx = {
-                          default = 32768,
+                          default = 128000,
                       },
                   },
               })
