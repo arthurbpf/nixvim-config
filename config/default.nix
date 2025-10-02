@@ -6,10 +6,6 @@
 
     ./plugins/snippets/luasnip.nix
 
-    ./plugins/ai/copilot.nix
-    ./plugins/ai/avante.nix
-    ./plugins/ai/codecompanion.nix
-
     ./plugins/cmp/cmp.nix
     ./plugins/cmp/lspkind.nix
 
